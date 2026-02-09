@@ -5,8 +5,8 @@ Suite Teardown          Close Browser
  
 #ข้อมูลที่เราใช้ในการทดสอบ
 ***Variables***
-${email}             aapinyaa51@gmail.com
-${password}          prince2549
+${email}             
+${password}          
  
 ***Keywords***
 Click login button
