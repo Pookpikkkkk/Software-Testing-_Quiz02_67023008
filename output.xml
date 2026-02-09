@@ -1,78 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.9 on win32)" generated="2026-02-09T15:36:02.421502" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.9 on win32)" generated="2026-02-09T15:44:06.279592" rpa="false" schemaversion="5">
 <suite id="s1" name="Testquit" source="D:\[68-2] 67023008\Software Testing\robotframwork\unitest051220225\QUIT\testquit.robot">
 <kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
-<msg time="2026-02-09T15:36:02.611746" level="INFO">Opening browser 'chrome' to base url 'https://chiangmuan.igovapp.com/'.</msg>
+<msg time="2026-02-09T15:44:06.481592" level="INFO">Opening browser 'chrome' to base url 'https://chiangmuan.igovapp.com/'.</msg>
 <arg>https://chiangmuan.igovapp.com/</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-09T15:36:02.611547" elapsed="3.661447"/>
+<status status="PASS" start="2026-02-09T15:44:06.481393" elapsed="3.320080"/>
 </kw>
 <test id="s1-t1" name="Input standard" line="35">
 <kw name="Click login button">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-02-09T15:36:06.274459" level="INFO">Clicking element '//*[@id="root"]/div/nav/header/div/a[1]'.</msg>
+<msg time="2026-02-09T15:44:09.803049" level="INFO">Clicking element '//*[@id="root"]/div/nav/header/div/a[1]'.</msg>
 <arg>//*[@id="root"]/div/nav/header/div/a[1]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-09T15:36:06.274129" elapsed="1.041702"/>
+<status status="PASS" start="2026-02-09T15:44:09.802669" elapsed="2.732862"/>
 </kw>
-<status status="PASS" start="2026-02-09T15:36:06.273846" elapsed="1.042145"/>
+<status status="PASS" start="2026-02-09T15:44:09.802352" elapsed="2.733337"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-02-09T15:36:09.316981" level="INFO">Slept 2 seconds.</msg>
+<msg time="2026-02-09T15:44:14.536726" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-02-09T15:36:07.316325" elapsed="2.000774"/>
+<status status="PASS" start="2026-02-09T15:44:12.535946" elapsed="2.000902"/>
 </kw>
 <kw name="Input email">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-02-09T15:36:09.318041" level="INFO">Typing text 'aapinyaa51@gmail.com' into text field '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input'.</msg>
-<msg time="2026-02-09T15:36:14.395512" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-09T15:36:14.395694" level="FAIL">Element with locator '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input' not found.</msg>
+<msg time="2026-02-09T15:44:14.537701" level="INFO">Typing text 'aapinyaa51@gmail.com' into text field '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input'.</msg>
 <arg>//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input</arg>
 <arg>${email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="FAIL" start="2026-02-09T15:36:09.317777" elapsed="5.080079">Element with locator '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input' not found.</status>
+<status status="PASS" start="2026-02-09T15:44:14.537514" elapsed="0.085248"/>
 </kw>
-<status status="FAIL" start="2026-02-09T15:36:09.317510" elapsed="5.080508">Element with locator '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input' not found.</status>
+<status status="PASS" start="2026-02-09T15:44:14.537269" elapsed="0.085616"/>
 </kw>
 <kw name="Input password">
-<status status="NOT RUN" start="2026-02-09T15:36:14.398376" elapsed="0.000034"/>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-09T15:44:14.623673" level="INFO">Typing text 'prince2549' into text field '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[2]/input'.</msg>
+<arg>//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[2]/input</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T15:44:14.623481" elapsed="0.050327"/>
+</kw>
+<status status="PASS" start="2026-02-09T15:44:14.623244" elapsed="0.050677"/>
 </kw>
 <kw name="Click login1 button">
-<status status="NOT RUN" start="2026-02-09T15:36:14.398663" elapsed="0.000027"/>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-09T15:44:14.674603" level="INFO">Clicking element '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[3]/button'.</msg>
+<arg>//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[3]/button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T15:44:14.674438" elapsed="0.043362"/>
+</kw>
+<status status="PASS" start="2026-02-09T15:44:14.674206" elapsed="0.043713"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-09T15:44:24.718899" level="INFO">Slept 10 seconds.</msg>
 <arg>10s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-02-09T15:36:14.398887" elapsed="0.000024"/>
+<status status="PASS" start="2026-02-09T15:44:14.718257" elapsed="10.000782"/>
 </kw>
 <kw name="Click health button">
-<status status="NOT RUN" start="2026-02-09T15:36:14.399153" elapsed="0.000030"/>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-09T15:44:24.719859" level="INFO">Clicking element '//*[@id="root"]/div/main/section/div[3]/div[2]/div/div/a[1]/div'.</msg>
+<arg>//*[@id="root"]/div/main/section/div[3]/div[2]/div/div/a[1]/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T15:44:24.719681" elapsed="0.256213"/>
+</kw>
+<status status="PASS" start="2026-02-09T15:44:24.719418" elapsed="0.256608"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-09T15:44:26.977039" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-02-09T15:36:14.399347" elapsed="0.000022"/>
+<status status="PASS" start="2026-02-09T15:44:24.976380" elapsed="2.000780"/>
 </kw>
 <kw name="Click History button">
-<status status="NOT RUN" start="2026-02-09T15:36:14.399602" elapsed="0.000026"/>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-09T15:44:26.977908" level="INFO">Clicking element '//*[@id="root"]/div/main/section[2]/div/div[2]/div[1]/a'.</msg>
+<arg>//*[@id="root"]/div/main/section[2]/div/div[2]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-09T15:44:26.977739" elapsed="0.280144"/>
+</kw>
+<status status="PASS" start="2026-02-09T15:44:26.977492" elapsed="0.280507"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-09T15:44:29.259388" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-02-09T15:36:14.399904" elapsed="0.000024"/>
+<status status="PASS" start="2026-02-09T15:44:27.258510" elapsed="2.001007"/>
 </kw>
 <kw name="Click Data button">
-<status status="NOT RUN" start="2026-02-09T15:36:14.400128" elapsed="0.000021"/>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-09T15:44:29.260564" level="INFO">Clicking button '//*[@id="react-aria5618277265-«r19»-1509966500786-00145-$.0"]/a'.</msg>
+<msg time="2026-02-09T15:44:39.418393" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-09T15:44:39.418606" level="FAIL">Button with locator '//*[@id="react-aria5618277265-«r19»-1509966500786-00145-$.0"]/a' not found.</msg>
+<arg>//*[@id="react-aria5618277265-«r19»-1509966500786-00145-$.0"]/a</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2026-02-09T15:44:29.260242" elapsed="10.160880">Button with locator '//*[@id="react-aria5618277265-«r19»-1509966500786-00145-$.0"]/a' not found.</status>
 </kw>
-<status status="FAIL" start="2026-02-09T15:36:06.273210" elapsed="8.127176">Element with locator '//*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input' not found.</status>
+<status status="FAIL" start="2026-02-09T15:44:29.259943" elapsed="10.161343">Button with locator '//*[@id="react-aria5618277265-«r19»-1509966500786-00145-$.0"]/a' not found.</status>
+</kw>
+<status status="FAIL" start="2026-02-09T15:44:09.801696" elapsed="29.619935">Button with locator '//*[@id="react-aria5618277265-«r19»-1509966500786-00145-$.0"]/a' not found.</status>
 </test>
 <kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-02-09T15:36:14.400989" elapsed="2.077708"/>
+<status status="PASS" start="2026-02-09T15:44:39.422374" elapsed="2.129082"/>
 </kw>
-<status status="FAIL" start="2026-02-09T15:36:02.422693" elapsed="14.056096"/>
+<status status="FAIL" start="2026-02-09T15:44:06.280798" elapsed="35.270747"/>
 </suite>
 <statistics>
 <total>
